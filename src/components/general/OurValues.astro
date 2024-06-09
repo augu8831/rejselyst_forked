@@ -2,7 +2,7 @@
 
 ---
 
-<article>
+<article class="values-article">
     <section class="values-section">
 
         <div class="value">
@@ -93,13 +93,13 @@ import { gsap } from "gsap";
 
 gsap.from(".values-section", {
     yPercent: 50,
-    duration: 3,
+    duration: 10,
     opacity: 0,
     stagger: 0.2,
     scrollTrigger: {
-      trigger: ".values-section",
+      trigger: ".values-article",
       start: "top 60%",
-    end: "center 95%",
+    end: "center 35%",
       scrub: true,
   }
 });
